@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/user_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/input_style"
+        android:textColor="#FF0000"
+        android:hint="user name"/>
+
+    <TextView
+        android:id="@+id/user_family_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/input_style"
+        android:textColor="#00FF00"
+        android:hint="user family"/>
+
+    <TextView
+        android:id="@+id/user_age_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/input_style"
+        android:textColor="#0000FF"
+        android:hint="user age"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/open_name_dialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:background="#FF0000"
+        android:textColor="@color/white"
+        android:text="Open user Name Dialog"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/open_family_dialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:background="#00FF00"
+        android:text="Open user Family Dialog"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/open_age_dialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:background="#0000FF"
+        android:textColor="@color/white"
+        android:text="Open user Age Dialog"/>
+
+</LinearLayout>
